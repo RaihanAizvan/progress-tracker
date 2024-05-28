@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Sevillana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300..700&family=Sedan+SC&family=Sevillana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&family=Quicksand:wght@300..700&family=Sedan+SC&family=Sevillana&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* transition-duration: 0.5s; */
+}
+
+.logo {
+  float: left;
+  margin-left: 5%;
+  line-height: 50px;
+  font-size: 1.5em;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 5px;
+}
+
+.nav1 {
+  border-radius: 0 0 50px 0;
+  box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  font-family: "Orbitron", sans-serif;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 12;
+}
+
+.nav-1:hover {
+  border-bottom: 2px solid rgb(19, 56, 223);
+  box-shadow: 0 0 20px rgba(12, 83, 236, 0.5);
+}
+
+.nav1:hover li a {
+  /* color: rgb(5, 113, 255); */
+  text-shadow: 0 0 10px rgba(0, 81, 255, 0.8);
+}
+
+.nav1 ul {
+  text-align: center;
+  height: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.3px);
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.025), rgb(0, 0, 0));
+}
+.nav .mini {
+  font-family: "Lilita One", sans-serif;
+}
+
+.nav1 ul li {
+  display: inline-block;
+}
+
+.nav1 ul li:not(:first-child) {
+  padding: 0 2%;
+}
+
+.nav1 ul li:not(:first-child):hover a {
+  position: relative;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.nav1 ul li a {
+  text-decoration: none;
+  line-height: 50px;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  color: white;
+}
+
+.nav1 ul li:not(:first-child) a:hover {
+  border: 0px 2px solid rgb(7, 73, 255);
+  background: rgba(70, 130, 180, 0.25);
+  box-shadow: 0 0 5px 1px rgb(24, 78, 228);
+  border-bottom: 5px solid rgb(32, 97, 216);
+  color: black;
+}
