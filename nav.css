@@ -13,9 +13,10 @@
   float: left;
   margin-left: 5%;
   line-height: 50px;
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: "Quicksand", sans-serif;
   letter-spacing: 5px;
+  word-spacing: 8px;
 }
 
 .nav1 {
@@ -26,6 +27,7 @@
   position: fixed;
   right: 0;
   left: 0;
+  top: 0;
   z-index: 12;
 }
 
@@ -69,12 +71,15 @@
   text-transform: uppercase;
   padding: 5px 15px;
   color: white;
+  transition: all 0.4s;
 }
 
 .nav1 ul li:not(:first-child) a:hover {
-  border: 0px 2px solid rgb(7, 73, 255);
-  background: rgba(70, 130, 180, 0.25);
-  box-shadow: 0 0 5px 1px rgb(24, 78, 228);
-  border-bottom: 5px solid rgb(32, 97, 216);
-  color: black;
+  /* border: 1px 2px solid rgb(7, 73, 255); */
+  /* background: rgba(0, 72, 255, 0.19);
+  box-shadow: 0 0 5px 1px rgb(0, 34, 129);
+  padding-bottom: 10px; */
+  border-bottom: 3px solid rgb(255, 255, 255);
+
+  /* color: black; */
 }

@@ -72,7 +72,10 @@ p {
   z-index: 11;
   margin-top: 80px;
 }
-
+a {
+  color: rgb(154, 226, 255);
+  text-decoration: none;
+}
 article {
   padding: 80px;
   max-width: 800px;
@@ -113,8 +116,7 @@ h2 {
 .instructions ol {
   margin: 20px 0;
 }
-.ingredients li,
-.instructions li {
+li {
   margin-bottom: 10px;
 }
 footer {
@@ -135,4 +137,19 @@ input[type="checkbox"]:checked + p {
 .test {
   display: none;
 }
-
+.html-code {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.img {
+  color: rgb(212, 212, 255);
+}
+.src {
+  color: rgb(255, 0, 43);
+}
+.img-name {
+  color: green;
+}
