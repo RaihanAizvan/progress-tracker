@@ -7,12 +7,21 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="sidebar.css" />
   </head>
   <body>
+    <div class="nav-container" tabindex="0">
+      <div class="nav-toggle"></div>
+      <nav class="nav-items">
+        <a class="nav-item" href="index.html" id="current">Week-1</a>
+        <a class="nav-item" href="week-2.html">Week-2</a>
+        <!-- <a class="nav-item" href="#"></a> -->
+      </nav>
+    </div>
     <nav class="nav1">
       <ul>
         <li class="logo">
-          <a href="#">ryhu<span class="mini"></span></a>
+          <a href="#">poi padikk<span class="mini"></span></a>
         </li>
         <li><a href="#">About</a></li>
         <li><a href="#">Skills</a></li>
@@ -27,6 +36,7 @@
         <div class="bottom" aria-hidden="true">WEEK--01</div>
       </section>
     </header>
+
     <article>
       <header class="header">
         <h1>HTML & CSS</h1>
@@ -245,11 +255,15 @@
         <h2>Tips</h2>
         <ol>
           <li>Don't forgot to add comments to your code</li>
+          <li>Give importance to theory over than Practcal in this week.</li>
           <li>
-           Give importance to theory over than Practcal in this week.
+            Dont use more styles in your website. Like Carousel, hover effects,
+            Tooltips etc.
           </li>
-          <li>Dont use more styles in your website. Like Carousel, hover effects, Tooltips etc.</li>
-          <li>It is the very simple week in our whole journey. Try to get Green badge for this week.</li>
+          <li>
+            It is the very simple week in our whole journey. Try to get Green
+            badge for this week.
+          </li>
         </ol>
       </section>
     </article>
@@ -320,5 +334,26 @@
         </div>
       </footer>
     </div>
+    <script>
+      const nav = document.querySelector(".nav-container");
+
+      if (nav) {
+        const toggle = nav.querySelector(".nav-toggle");
+
+        if (toggle) {
+          toggle.addEventListener("click", () => {
+            if (nav.classList.contains("is-active")) {
+              nav.classList.remove("is-active");
+            } else {
+              nav.classList.add("is-active");
+            }
+          });
+
+          nav.addEventListener("blur", () => {
+            nav.classList.remove("is-active");
+          });
+        }
+      }
+    </script>
   </body>
 </html>
