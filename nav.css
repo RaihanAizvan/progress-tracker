@@ -21,14 +21,19 @@
 
 .nav1 {
   border-radius: 0 0 50px 0;
+  background: hsl(214, 39%, 11%);
   box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.4);
   overflow: hidden;
   font-family: "Orbitron", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 3px;
   position: fixed;
   right: 0;
   left: 0;
   top: 0;
   z-index: 12;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.2);
 }
 
 .nav-1:hover {
@@ -45,8 +50,8 @@
   text-align: center;
   height: 50px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(9.3px);
-  background: linear-gradient(to top, rgba(255, 255, 255, 0.025), rgb(0, 0, 0));
+  /* backdrop-filter: blur(9.3px); */
+  /* background: linear-gradient(to top, rgba(255, 255, 255, 0.025), rgb(0, 0, 0)); */
 }
 .nav .mini {
   font-family: "Lilita One", sans-serif;
@@ -71,7 +76,7 @@
   text-transform: uppercase;
   padding: 5px 15px;
   color: white;
-  transition: all 0.4s;
+  transition: all 0.2s;
 }
 
 .nav1 ul li:not(:first-child) a:hover {
@@ -79,7 +84,13 @@
   /* background: rgba(0, 72, 255, 0.19);
   box-shadow: 0 0 5px 1px rgb(0, 34, 129);
   padding-bottom: 10px; */
-  border-bottom: 3px solid rgb(255, 255, 255);
+  border: 1px solid rgba(255, 255, 255, 0.153);
+  padding: 15px;
+  margin: -1px;
 
   /* color: black; */
+}
+li.login,
+li.sigup {
+  float: right;
 }

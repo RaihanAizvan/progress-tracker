@@ -1,10 +1,10 @@
 .nav-container {
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
   max-width: 40px;
   max-height: 40px;
-  overflow: visible;
-
+  /* overflow: visible; */
+  font-size: 15px;
   outline: none;
   /* transform: translate(-645px); */
   z-index: 1000;
@@ -25,9 +25,9 @@
 .nav-container .nav-toggle {
   position: relative;
   position: fixed;
-  width: 40px;
+  width: 30px;
   /* background-color: white; */
-  height: 50px;
+  height: 10px;
   margin: 10px;
   top: 0;
   /* margin-left: 30px; */
@@ -43,7 +43,7 @@
   top: 25px;
   left: 20px;
   transform: translate(0, 0);
-  width: 30px;
+  width: 25px;
   height: 3px;
   background: rgb(255, 255, 255);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -56,40 +56,47 @@
 }
 .nav-container .nav-items {
   position: fixed;
-  top: 0;
+  top: 60px;
   left: 0;
-  min-width: 100px;
-  max-width: 20vw;
-  width: 100vw;
+  min-width: 250px;
+  width: 20vw;
+  /* width: 100vw; */
   height: 100vh;
   z-index: 1;
-  padding: 80px 20px 20px 10px;
+  padding: 30px 20px 20px 10px;
   transition: transform 0.3s ease;
   transform: translate(calc(-100% - 50px), 0);
-  background: no-repeat linear-gradient(#000000e7, #011d9660 20%, #000000 75%);
+  /* background: no-repeat linear-gradient(#000000e7, #011d9660 20%, #000000 75%); */
   display: grid;
+
   grid-template-columns: 1fr;
   grid-gap: 10px 0;
-  border-radius: 15px;
+  border-radius: 4px;
   align-content: start;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.397);
+  border: 1px solid rgb(255, 255, 255, 0.2);
+
+  /* box-shadow: 0 0 30px rgba(255, 255, 255, 0.397); */
   /* box-shadow: 0 0 50px rgba(0, 0, 0, 0.3); */
 }
+
 .nav-container .nav-items .nav-item {
-  background: no-repeat linear-gradient(#2d429ce7, #564ca464 20%, #00030f 75%);
-  padding: 15px;
+  /* background: no-repeat linear-gradient(#2d429ce7, #564ca464 20%, #00030f 75%); */
+  padding: 10px;
   transition: background-color 0.2s ease;
   border-radius: 10px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.52);
+  border: 1px solid rgb(255, 255, 255, 0.2);
+  color: white;
+  font-weight: 200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI";
+  letter-spacing: 3px;
 }
 .nav-container .nav-items .nav-item:hover {
   cursor: pointer;
-  background: no-repeat linear-gradient(#ffffff5c, #807ba564 20%, #000000 75%);
-
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  background-color: rgba(69, 73, 86, 0.46);
 }
 #current {
-  background: no-repeat linear-gradient(#ffffff5c, #807ba564 20%, #000000 75%);
+  /* background: no-repeat linear-gradient(#ffffff5c, #807ba564 20%, #000000 75%); */
+  background-color: rgba(49, 52, 62, 0.46);
   color: rgb(255, 255, 255);
-  box-shadow: 0 0 9px rgba(255, 255, 255, 0.5);
+  /* box-shadow: 0 0 9px rgba(255, 255, 255, 0.5); */
 }
