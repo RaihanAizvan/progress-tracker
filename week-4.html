@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Week-4</title>
@@ -8,7 +9,7 @@
     <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="sidebar.css" />
     <style>
-        .important:after{
+        .important:after {
             /* color: red;
             font-family: Verdana, Geneva, Tahoma, sans-serif; */
             content: "*";
@@ -16,455 +17,531 @@
             color: red;
             font-size: 18px;
             font-weight: 700;
-           
+
         }
-        .important{
+
+        .important {
             position: relative;
         }
     </style>
-  </head>
+</head>
 
 
 
-  <body>
+<body>
     <div class="nav-container is-active" tabindex="0">
-      <div class="nav-toggle"></div>
-      <nav class="nav-items">
-        <a class="nav-item" href="index.html">Week-1</a>
-        <a class="nav-item" href="week-2.html" >Week-2</a>
-        <a class="nav-item" href="week-3.html" >Week-3</a>
-        <a class="nav-item" href="week-4.html" id="current">Week-4</a>
-        <!-- <a class="nav-item" href="#"></a> -->
-      </nav>
+        <div class="nav-toggle"></div>
+        <nav class="nav-items">
+            <a class="nav-item" href="index.html">Week-1</a>
+            <a class="nav-item" href="week-2.html">Week-2</a>
+            <a class="nav-item" href="week-3.html">Week-3</a>
+            <a class="nav-item" href="week-4.html" id="current">Week-4</a>
+            <!-- <a class="nav-item" href="#"></a> -->
+        </nav>
     </div>
     <nav class="nav1">
-      <ul>
-        <li class="logo">
-          <a href="#">fution<span class="mini"></span></a>
-        </li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-        <li class="login"><a href="#">Login</a></li>
-      </ul>
+        <ul>
+            <li class="logo">
+                <a href="#">fution<span class="mini"></span></a>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="login"><a href="#">Login</a></li>
+        </ul>
     </nav>
     <div class="main-wrapper"></div>
     <header>
-      <section class="wrapper">
-        <div class="top">WEEK--04</div>
-        <div class="bottom" aria-hidden="true">WEEK--04</div>
-      </section>
+        <section class="wrapper">
+            <div class="top">WEEK--04</div>
+            <div class="bottom" aria-hidden="true">WEEK--04</div>
+        </section>
     </header>
 
-   
+
     <article>
-      <header class="header">
-        <h1>Backend Development</h1>
-      </header>
-      
-      <header class="header">
-        <h2 style="margin: 30px 0;">Nodejs</h1>
-      </header>
-      <section>
-        <ul>
-          <li>
-            <input type="checkbox" />
-            <p>What is Node.js?</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Runtime environment</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Advantages of Node.js</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Features of Node.js</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Node.js Architecture:</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Core modules in Node.js</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>NPM (Node Package Manager)</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>npm init</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>npm vs. npx</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Understanding package.json and package-lock.json</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Dev dependencies vs. dependencies</p>
-          </li>
-          <header class="header-small">
-            <h2 style="margin: 30px 0;">Express</h1>
-          </header>
-          <li>
-            <input type="checkbox" />
-            <p>Introduction to Express.js</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Features of Express.js</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Routing in Express.js</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>app.set vs app.use vs app.all</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Router.all</p>
-          </li>
-           
-          <li>
-            <input type="checkbox" />
-            <p>URL encoding</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Body-parser</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Session and cookies</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>MVC (Model-View-Controller)</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>View engines</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Clustering</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Fork function, spawn, exec, and exec file</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Domain port flow</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Garbage collection</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Trace</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Duplex stream</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>BSON (Binary JSON)</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Using Express middleware</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Learn Status codes (including 400 range)</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Understanding headers</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Scaffolding (project structure)</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Blocking code</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>JSON parsing and stringifying</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Why Node.js uses a single thread</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Event loop and Libuv</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Threadpool</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Alternatives to Express.js (briefly mention other frameworks)</p>
-          </li>
-          <header class="header-small">
-            <h2 style="margin: 30px 0;">Http and Middlewares</h1>
-          </header>
-          <li>
-            <input type="checkbox" />
-            <p>HTTP vs. HTTPS</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>HTTP methods</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Request and response headers</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>PUT and PATCH HTTP methods</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Server communication</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Static files</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>CORS (Cross-Origin Resource Sharing)</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Middleware in Node.js</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Example of common middlewares</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Error handling middleware and its working</p>
-          </li>
-          <header class="header-small">
-            <h2 style="margin: 30px 0;">Asynchronous NodeJs</h2>
-          </header>
-          <li>
-            <input type="checkbox" />
-            <p>Buffer class</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Streams and piping</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Event-driven programming</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Event-driven architecture</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Event emitter</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Process.nextTick</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Working of Event loop In NodeJs</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Asynchronous operations (callbacks, promises)</p>
-          </li>
-          
-          
-          <li>
-            <input type="checkbox" />
-            <p>URL encoding</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Body-parser</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Session and cookies</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>MVC (Model-View-Controller)</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>View engines</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Clustering</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Fork function, spawn, exec, and exec file</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Domain port flow</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Garbage collection</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Trace</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Duplex stream</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>BSON (Binary JSON)</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Using Express middleware</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Learn Status codes (including 400 range)</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Understanding headers</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Scaffolding (project structure)</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Blocking code</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>JSON parsing and stringifying</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Why Node.js uses a single thread</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Event loop and Libuv</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Threadpool</p>
-          </li>
-          <header class="header-small">
-            <h2 style="margin: 30px 0;">Additional Modules and tools</h2>
-          </header>
-          <li>
-            <input type="checkbox" />
-            <p>OS modules</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Path modules</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>fs modules</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>http modules</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Query parameters and path parameters</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Read/write operations</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>DNS module</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Process environment variables(.env)</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Using events</p>
-          </li>
-          <li>
-            <input type="checkbox" />
-            <p>Middleware types</p>
-          </li>
+        <header class="header">
+            <h1>Backend Development</h1>
+        </header>
 
-        </ul>
-      </section>
-      <hr />
-      <section class="instructions">
-        <h2>Tips</h2>
-        <ol>
-          
-      </section>
+        <header class="header">
+            <h2 style="margin: 30px 0;">Nodejs</h1>
+        </header>
+        <section>
+            <ul>
+                <li>
+                    <input type="checkbox" />
+                    <p>What is Node.js?</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Runtime environment</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Advantages of Node.js</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Features of Node.js</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Node.js Architecture:</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Core modules in Node.js</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>NPM (Node Package Manager)</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>npm init</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>npm vs. npx</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Understanding package.json and package-lock.json</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Dev dependencies vs. dependencies</p>
+                </li>
+                <header class="header-small">
+                    <h2 style="margin: 30px 0;">Express</h1>
+                </header>
+                <li>
+                    <input type="checkbox" />
+                    <p>Introduction to Express.js</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Features of Express.js</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Routing in Express.js</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>app.set vs app.use vs app.all</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Router.all</p>
+                </li>
+
+                <li>
+                    <input type="checkbox" />
+                    <p>URL encoding</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Body-parser</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Session and cookies</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>MVC (Model-View-Controller)</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>View engines</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Clustering</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Fork function, spawn, exec, and exec file</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Domain port flow</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Garbage collection</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Trace</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Duplex stream</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>BSON (Binary JSON)</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Using Express middleware</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Learn Status codes (including 400 range)</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Understanding headers</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Scaffolding (project structure)</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Blocking code</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>JSON parsing and stringifying</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Why Node.js uses a single thread</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Event loop and Libuv</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Threadpool</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Alternatives to Express.js (briefly mention other frameworks)</p>
+                </li>
+                <header class="header-small">
+                    <h2 style="margin: 30px 0;">Http and Middlewares</h1>
+                </header>
+                <li>
+                    <input type="checkbox" />
+                    <p>HTTP vs. HTTPS</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>HTTP methods</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Request and response headers</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>PUT and PATCH HTTP methods</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Server communication</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Static files</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>CORS (Cross-Origin Resource Sharing)</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Middleware in Node.js</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Example of common middlewares</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Error handling middleware and its working</p>
+                </li>
+                <header class="header-small">
+                    <h2 style="margin: 30px 0;">Asynchronous NodeJs</h2>
+                </header>
+                <li>
+                    <input type="checkbox" />
+                    <p>Buffer class</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Streams and piping</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Event-driven programming</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Event-driven architecture</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Event emitter</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Process.nextTick</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Working of Event loop In NodeJs</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Asynchronous operations (callbacks, promises)</p>
+                </li>
+
+
+                <li>
+                    <input type="checkbox" />
+                    <p>URL encoding</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Body-parser</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Session and cookies</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>MVC (Model-View-Controller)</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>View engines</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Clustering</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Fork function, spawn, exec, and exec file</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Domain port flow</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Garbage collection</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Trace</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Duplex stream</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>BSON (Binary JSON)</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Using Express middleware</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Learn Status codes (including 400 range)</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Understanding headers</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Scaffolding (project structure)</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Blocking code</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>JSON parsing and stringifying</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Why Node.js uses a single thread</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Event loop and Libuv</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Threadpool</p>
+                </li>
+                <header class="header-small">
+                    <h2 style="margin: 30px 0;">Additional Modules and tools</h2>
+                </header>
+                <li>
+                    <input type="checkbox" />
+                    <p>OS modules</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Path modules</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>fs modules</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>http modules</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Query parameters and path parameters</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Read/write operations</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>DNS module</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Process environment variables(.env)</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Using events</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Middleware types</p>
+                </li>
+                <header class="header-small">
+                    <h2 style="margin: 30px 0;">Practical</h2>
+                </header>
+                <li>
+                    <input type="checkbox" />
+                    <p>Router
+                    </p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Server(http)
+                    </p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Query params
+                    </p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Path params
+                    </p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Read/write
+                    </p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Os modules
+                    </p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Session / cookies</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Events
+                    </p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>View</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Middlewares</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p>Pass current date while writing file</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p> Delete a file</p>
+                </li>
+                <li>
+                    <input type="checkbox" />
+                    <p> Delete a file</p>
+                </li>
+            </ul>
+        </section>
+        <hr />
+        <section class="instructions">
+            <h2>Task to do</h2>
+            <ol>
+                <li>
+                    <p>Complete at least 3 sample works using view engine concepts and bootstrap. For example, list
+                        dummy items/ cards using a loop or display table items etc</p>
+                </li>
+                <li>
+                    <p>
+                        Design a login and a home page, the Home page should not be blank. Use bootstrap & View engine.
+                    </p><br>
+                    <ul>
+                        <li>Login page should accept the username and password from the user./li>
+                        <li>The username and password should be validated on the server side with a predefined value</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
     </article>
-    
 
- 
-    
+
+
+
     <script>
-      const nav = document.querySelector(".nav-container");
+        const nav = document.querySelector(".nav-container");
 
-      if (nav) {
-        const toggle = nav.querySelector(".nav-toggle");
+        if (nav) {
+            const toggle = nav.querySelector(".nav-toggle");
 
-        if (toggle) {
-          toggle.addEventListener("click", () => {
-            if (nav.classList.contains("is-active")) {
-              nav.classList.remove("is-active");
-            } else {
-              nav.classList.add("is-active");
+            if (toggle) {
+                toggle.addEventListener("click", () => {
+                    if (nav.classList.contains("is-active")) {
+                        nav.classList.remove("is-active");
+                    } else {
+                        nav.classList.add("is-active");
+                    }
+                });
+
+                nav.addEventListener("blur", () => {
+                    nav.classList.remove("is-active");
+                });
             }
-          });
-
-          nav.addEventListener("blur", () => {
-            nav.classList.remove("is-active");
-          });
         }
-      }
     </script>
-  </body>
+</body>
+
 </html>
